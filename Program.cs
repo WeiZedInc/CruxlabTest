@@ -4,7 +4,7 @@
 	{
 		static void Main(string[] args)
 		{
-			PasswordValidator passwordValidator = new("cruxLabInput.txt");
+			PasswordValidator passwordValidator = new("../../../cruxLabInput.txt");
 			passwordValidator.Validate();
 			passwordValidator.ShowValidCount();
 			Console.ReadLine();
